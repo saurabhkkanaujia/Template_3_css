@@ -11,7 +11,7 @@ nav{
     float: right;
 }
 body{
-    margin: 7% 5% 5% 5% ;
+    margin: 5% 5% 5% 5% ;
 }
 #header{
     overflow: hidden;
@@ -45,10 +45,7 @@ h1{
 #content{
     margin: auto;
 }
-.card_box{
-    padding: 100px;
-    background-color: ;
-}
+
 .inner_card{
     background-color: #d3d3d367;
     padding: 78px 148px 70px 50px;
@@ -59,4 +56,37 @@ h1{
 }
 .a_font{
     color: black;
+}
+#footer{
+    text-align: center;
+    background-color: #d3d3d367;
+    padding: 40px;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+#SubmitBtn{
+    color: white;
+    padding: 14px 70px;
+    background-color: dodgerblue;
+    text-decoration: NONE;
+    margin-left: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+.subs{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+input{
+    font-size: 16px;
+    height: 44px;
+    width: 30%;
+}
+.copyright{
+    padding: 35px;
 }
