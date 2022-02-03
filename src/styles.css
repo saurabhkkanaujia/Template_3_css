@@ -36,7 +36,6 @@ h1{
     float: left;
     width: 25%;
     display: flex;
-    flex-wrap: nowrap; 
     margin: 30px;
     display: block;
     text-align: center;
@@ -89,4 +88,12 @@ input{
 }
 .copyright{
     padding: 35px;
+}
+
+@media screen and (max-width: 800px) {
+    .flex_box, #header, #footer {
+        flex-direction: column;   
+        place-items: center;
+    }
+   
 }
